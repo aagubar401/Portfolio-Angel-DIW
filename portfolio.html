@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="estilos_custom.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-lightc fondo_navbar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-lightc fondo_navbar" id="navbar">
   <div class="container-fluid barra">
     <a class="navbar-brand" href="https://open.spotify.com/intl-es/artist/5z3XuBlhRlp8A0oUlZa49w"><img src="logo.jpg" alt="logo" class="imagen_logo rounded-circle"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -213,6 +213,53 @@
     </div>
   </section>
   <section id="articulos">
+    <h2>Artículos</h2>
+    <p>Aquí se muestran varios artículos de interés general relacionados con la informática, la música o el fútbol (otro de mis intereses). Ninguno ha sido hecho por mí (en el footer se etiquetarán a los autores)</p>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="informatica">
+        <div class="card">
+          <div class="card-header">Informática</div>
+          <div class="card-body"><a href="https://elpais.com/economia/formacion/2026-01-30/los-talento-invisibles-en-la-era-de-la-inteligencia-artificial.html">Los talentos invisibles en la era de la inteligencia artificial</a></div>
+          <div class="card-body"><a href="https://www.ironhack.com/es/blog/los-5-lenguajes-de-programacion-mas-demandados-para-machine-learning-en-2025">Los 5 lenguajes de programación mas demandados para machine learning en 2025</a></div>
+          <div class="card-body"><a href="https://utopia.fundacionbyb.org/crear/videojuegos">De jugar a crear: el desarrollo de videojuegos</a></div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="musica">
+        <div class="card">
+          <div class="card-header">Música</div>
+          <div class="card-body"><a href="https://topmastering.online/produccion-musical-que-es-un-productor/">PRODUCCIÓN MUSICAL 🎧 ¿Qué es, Qué hace un Productor y Cuánto Gana?</a></div>
+          <div class="card-body"><a href="https://los40.us/2026/01/29/los-artistas-latinos-que-podrian-triunfar-en-los-premios-grammy-2026/">Los artistas latinos que podrían triunfar en los Premios Grammy 2026</a></div>
+          <div class="card-body"><a href="https://www.cadenadial.com/2024/conoces-pasado-beret-rapero-15-anos-sonaba-habitaciones-adolescente-380584.html">¿Conoces el pasado de Beret? El rapero de 15 años que sonaba en las habitaciones de todo adolescente</a></div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="futbol">
+        <div class="card">
+          <div class="card-header">Fútbol</div>
+          <div class="card-body"><a href="https://www.elmundo.es/deportes/futbol/2026/01/29/697b8c71fdddffee538b4573.html">Los viejos y nuevos problemas del Madrid: los enfados en el vestuario, la pretemporada de Pintus y el "no" a fichar en enero</a></div>
+          <div class="card-body"><a href="https://www.marca.com/futbol/betis/2026/01/29/antony-vengo-jugando-dolor-betis-sacrificio-orgullo.html">Antony: "Vengo jugando con dolor, pero por el Betis hago el sacrificio con mucho orgullo"</a></div>
+          <div class="card-body"><a href="https://www.marca.com/futbol/champions-league/2026/01/29/asi-paso-mourinho-encima-arbeloa.html">Así pasó Mourinho por encima de Arbeloa</a></div>
+        </div>
+      </div>
+    </div>
+            <ul class="nav nav-tabs mb-3">
+  <li class="nav-item">
+    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#informatica">
+      Informática
+    </button>
+  </li>
+  <li class="nav-item">
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#musica">
+      Música
+    </button>
+  </li>
+  <li class="nav-item">
+    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#futbol">
+      Fútbol
+    </button>
+  </li>
+</ul>
+
+
 
   </section>
   <section id="testimonios">
@@ -289,6 +336,16 @@
 </svg>
 </a>
     <p>Creado por Ángel del Águila Barroso (2026) &#169;</p>
+    <p>Los talentos invisibles en la era de la inteligencia artificial - Artículo del periódico El Pais</p>
+    <p>Los 5 lenguajes de programación mas demandados para machine learning en 2025 - Ártículo del sitio web Ironhack</p>
+    <p>De jugar a crear: el desarrollo de videojuegos - Artículo del sitio web Utopía</p>
+    <p>PRODUCCIÓN MUSICAL 🎧 ¿Qué es, Qué hace un Productor y Cuánto Gana? - Artículo del sitio web Top Mastering</p>
+    <p>Los artistas latinos que podrían triunfar en los Premios Grammy 2026 - Artículo del sitio web de Los 40</p>
+    <p>¿Conoces el pasado de Beret? El rapero de 15 años que sonaba en las habitaciones de todo adolescente - Ártículo del sitio web de Cadena Dial</p>
+    <p>Los viejos y nuevos problemas del Madrid: los enfados en el vestuario, la pretemporada de Pintus y el "no" a fichar en enero - Artículo del periódico El Mundo</p>
+    <p>Antony: "Vengo jugando con dolor, pero por el Betis hago el sacrificio con mucho orgullo" - Artículo del periódico Marca</p>
+    <p>Así pasó Mourinho por encima de Arbeloa - Artículo del periódico Marca</p>
+    <a href="#navbar" class="btn btn-danger">Volver arriba</a>
   </footer>
 </body>
 </html>
