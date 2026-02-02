@@ -162,3 +162,17 @@ h2 {
 .texto-slide {
   margin: 9px;
 }
+
+.list-group-item {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
+}
+
+.list-group-item:hover a {
+  color: #fff;
+}
