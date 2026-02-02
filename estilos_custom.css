@@ -148,3 +148,17 @@ h2 {
 .card-header {
   font-weight: bold;
 }
+
+.imagen_carrusel {
+  width: 80px;
+  height: 100%;
+  text-align: center;
+}
+
+.contenido-slide {
+  text-align: center;
+}
+
+.texto-slide {
+  margin: 9px;
+}
